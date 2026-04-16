@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "4.4.2",
+  "metadata": {
+    "appmode": "shiny"
+  },
+  "packages": {
+    "shiny": { "Source": "CRAN" },
+    "shinychat": { "Source": "CRAN" },
+    "ellmer": { "Source": "CRAN" },
+    "bslib": { "Source": "CRAN" },
+    "readr": { "Source": "CRAN" },
+    "dplyr": { "Source": "CRAN" },
+    "stringr": { "Source": "CRAN" },
+    "janitor": { "Source": "CRAN" },
+    "leaflet": { "Source": "CRAN" },
+    "bsicons": { "Source": "CRAN" }
+  }
+}
