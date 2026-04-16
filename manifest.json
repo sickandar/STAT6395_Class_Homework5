@@ -62,12 +62,13 @@
       }
     },
     "janitor": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "janitor"
-      }
-    },
+  "Source": "CRAN",
+  "Repository": "https://cran.rstudio.com",
+  "description": {
+    "Package": "janitor",
+    "Version": "2.2.1"
+  }
+},
     "leaflet": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
