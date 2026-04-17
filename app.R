@@ -300,7 +300,7 @@ ui <- page_fillable(
           card_header("How the Shiny App was Designed and the LLM/RAG was setup"),
           card_body(
             h3("Credits"),
-            p(("Authors: "), ""),
+            p(("Authors: "), "Sickandar Akhthar | Brady Heinig | Griffin Thoreson"),
             p("STAT 6395 - Homework 5"),
             h3("Design Prompt used with Shiny Assistant"),
             h5("The following prompts were used to generate the Shiny Dashboard app (or shell)."),
