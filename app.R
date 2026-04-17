@@ -291,7 +291,7 @@ ui <- page_fillable(
           card_header("How the Shiny App was Designed and the LLM/RAG was setup"),
           card_body(
             h3("Credits"),
-            p(("Authors: "), "Sickandar Akhthar | Brady Heinig | Griffin Thoreson"),
+            p(("Authors: "), ""),
             p("STAT 6395 - Homework 5"),
             h3("Design Prompt used with Shiny Assistant"),
             h5("The following prompts were used to generate the Shiny Dashboard app (or shell)."),
@@ -865,7 +865,10 @@ server <- function(input, output, session) {
       "Use the companion_tool when a user asks what plants grow well together, asks for companion plant suggestions, or asks what companion plants to add.",
       "Use the spacing_tool when a user asks about square footage or how many plants will fit.",
       "Use the plant database. If a plant not in the database is asked, tell the user it is not in the database.",
-      "Botany topics are allowed. Other topics are NOT allowed."
+      "Botany topics are allowed. Other topics are NOT allowed.",
+      "Only answer for plants in the database list.",
+      "If not listed, respond: 'That plant is not in the database.'",
+      "Do not provide general advice for unsupported plants."
     )
   )
   
